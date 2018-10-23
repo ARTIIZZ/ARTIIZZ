@@ -3,7 +3,7 @@ It's an app that showing possibility to all artist to expose their works
 
 Artizz is an iOS mobile app that will showcase local paints
 2 groups of users:
-<br />
+<br /> ok
 # Customers
 - [ ] Can log in and out of his account
 - [ ] See all works of art displayed on the system.
