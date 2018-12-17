@@ -1,0 +1,6 @@
+framework module Pods_ARTIIZZTests {
+  umbrella header "Pods-ARTIIZZTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
