@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		265F268B21B45CEC008F2E07 /* ViewController in Resources */ = {isa = PBXBuildFile; fileRef = 265F268A21B45CEC008F2E07 /* ViewController */; };
+		5915660C21C747CC006546AF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915660B21C747CC006546AF /* LoginViewController.swift */; };
+		5915660E21C7791F006546AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915660D21C7791E006546AF /* RegisterViewController.swift */; };
+		5915661021C7884F006546AF /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915660F21C7884F006546AF /* ProductListViewController.swift */; };
+		5915661221C788FA006546AF /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5915661121C788FA006546AF /* ProductTableViewCell.swift */; };
 		596F6433216F95FE00746136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F6432216F95FE00746136 /* AppDelegate.swift */; };
 		596F6435216F95FE00746136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F6434216F95FE00746136 /* ViewController.swift */; };
 		596F6438216F95FE00746136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596F6436216F95FE00746136 /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 		596F643D216F960B00746136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 596F643B216F960B00746136 /* LaunchScreen.storyboard */; };
 		596F6448216F960B00746136 /* ARTIIZZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F6447216F960B00746136 /* ARTIIZZTests.swift */; };
 		596F6453216F960B00746136 /* ARTIIZZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 596F6452216F960B00746136 /* ARTIIZZUITests.swift */; };
+		5971B39721C980C400504798 /* GallerieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971B39621C980C400504798 /* GallerieViewController.swift */; };
+		5971B39921C9810F00504798 /* GallerieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971B39821C9810F00504798 /* GallerieTableViewCell.swift */; };
+		5971B39B21C98BC500504798 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971B39A21C98BC500504798 /* MapViewController.swift */; };
+		5971B39D21C99AB900504798 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5971B39C21C99AB900504798 /* PostViewController.swift */; };
 		D3E56D0FEE73BD3B67433C31 /* Pods_ARTIIZZ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7551264B93B8641BA56193E3 /* Pods_ARTIIZZ.framework */; };
 		D414C99E35F99811BA957798 /* Pods_ARTIIZZUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89EAF4F15BD16D66D0E77FA4 /* Pods_ARTIIZZUITests.framework */; };
 		D49D6C11C17404EB7F49C95A /* Pods_ARTIIZZTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43314E69B5DA3269B4BE55B7 /* Pods_ARTIIZZTests.framework */; };
@@ -40,6 +48,10 @@
 /* Begin PBXFileReference section */
 		265F268A21B45CEC008F2E07 /* ViewController */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = ViewController; sourceTree = "<group>"; };
 		43314E69B5DA3269B4BE55B7 /* Pods_ARTIIZZTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTIIZZTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5915660B21C747CC006546AF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5915660D21C7791E006546AF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5915660F21C7884F006546AF /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
+		5915661121C788FA006546AF /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
 		596F642F216F95FE00746136 /* ARTIIZZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARTIIZZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		596F6432216F95FE00746136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		596F6434216F95FE00746136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +65,10 @@
 		596F644E216F960B00746136 /* ARTIIZZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARTIIZZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		596F6452216F960B00746136 /* ARTIIZZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARTIIZZUITests.swift; sourceTree = "<group>"; };
 		596F6454216F960B00746136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5971B39621C980C400504798 /* GallerieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerieViewController.swift; sourceTree = "<group>"; };
+		5971B39821C9810F00504798 /* GallerieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GallerieTableViewCell.swift; sourceTree = "<group>"; };
+		5971B39A21C98BC500504798 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5971B39C21C99AB900504798 /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		72BAD8B6DE884E0BC21D6D5A /* Pods-ARTIIZZ.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTIIZZ.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARTIIZZ/Pods-ARTIIZZ.debug.xcconfig"; sourceTree = "<group>"; };
 		7551264B93B8641BA56193E3 /* Pods_ARTIIZZ.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARTIIZZ.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75F023FA6A22C33A1B4C5F9D /* Pods-ARTIIZZTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARTIIZZTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARTIIZZTests/Pods-ARTIIZZTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +162,14 @@
 				596F6439216F960B00746136 /* Assets.xcassets */,
 				596F643B216F960B00746136 /* LaunchScreen.storyboard */,
 				596F643E216F960B00746136 /* Info.plist */,
+				5915660B21C747CC006546AF /* LoginViewController.swift */,
+				5915660D21C7791E006546AF /* RegisterViewController.swift */,
+				5915660F21C7884F006546AF /* ProductListViewController.swift */,
+				5915661121C788FA006546AF /* ProductTableViewCell.swift */,
+				5971B39621C980C400504798 /* GallerieViewController.swift */,
+				5971B39821C9810F00504798 /* GallerieTableViewCell.swift */,
+				5971B39A21C98BC500504798 /* MapViewController.swift */,
+				5971B39C21C99AB900504798 /* PostViewController.swift */,
 			);
 			path = ARTIIZZ;
 			sourceTree = "<group>";
@@ -305,17 +329,17 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-ARTIIZZ/Pods-ARTIIZZ-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -327,15 +351,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ARTIIZZUITests-checkManifestLockResult.txt",
 			);
@@ -349,15 +369,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ARTIIZZTests-checkManifestLockResult.txt",
 			);
@@ -371,15 +387,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ARTIIZZ-checkManifestLockResult.txt",
 			);
@@ -395,8 +407,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5915660C21C747CC006546AF /* LoginViewController.swift in Sources */,
 				596F6435216F95FE00746136 /* ViewController.swift in Sources */,
+				5915661021C7884F006546AF /* ProductListViewController.swift in Sources */,
 				596F6433216F95FE00746136 /* AppDelegate.swift in Sources */,
+				5971B39D21C99AB900504798 /* PostViewController.swift in Sources */,
+				5971B39B21C98BC500504798 /* MapViewController.swift in Sources */,
+				5915660E21C7791F006546AF /* RegisterViewController.swift in Sources */,
+				5915661221C788FA006546AF /* ProductTableViewCell.swift in Sources */,
+				5971B39921C9810F00504798 /* GallerieTableViewCell.swift in Sources */,
+				5971B39721C980C400504798 /* GallerieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

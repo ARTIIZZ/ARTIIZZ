@@ -7,7 +7,8 @@ target 'ARTIIZZ' do
 
   # Pods for ARTIIZZ
   pod 'Alamofire'
-  
+  pod 'AFNetworking'
+  pod 'SwiftyJSON'
   target 'ARTIIZZTests' do
     inherit! :search_paths
     # Pods for testing
