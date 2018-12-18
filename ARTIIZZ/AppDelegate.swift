@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let defaults = UserDefaults.standard
+        let stringValue = defaults.string(forKey: "value") ?? ""
+        if(stringValue != ""){
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            // view controller currently being set in Storyboard as default will be overridden
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "vcTabbar")
+        }
         return true
     }
 

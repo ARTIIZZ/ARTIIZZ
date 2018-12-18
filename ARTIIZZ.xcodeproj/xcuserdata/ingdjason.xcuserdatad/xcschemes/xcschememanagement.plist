@@ -7,7 +7,25 @@
 		<key>ARTIIZZ.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>596F642E216F95FD00746136</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>596F6442216F960B00746136</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>596F644D216F960B00746136</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
